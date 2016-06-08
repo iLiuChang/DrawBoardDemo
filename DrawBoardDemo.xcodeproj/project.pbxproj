@@ -14,6 +14,7 @@
 		5837FE031D07B6B300FEFBCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5837FE011D07B6B300FEFBCF /* LaunchScreen.storyboard */; };
 		5837FE0E1D07B6B400FEFBCF /* DrawBoardDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5837FE0D1D07B6B400FEFBCF /* DrawBoardDemoTests.swift */; };
 		5837FE191D07B6B400FEFBCF /* DrawBoardDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5837FE181D07B6B400FEFBCF /* DrawBoardDemoUITests.swift */; };
+		5837FE271D07B6DF00FEFBCF /* LCDrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5837FE261D07B6DF00FEFBCF /* LCDrawView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		5837FE141D07B6B400FEFBCF /* DrawBoardDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawBoardDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5837FE181D07B6B400FEFBCF /* DrawBoardDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawBoardDemoUITests.swift; sourceTree = "<group>"; };
 		5837FE1A1D07B6B400FEFBCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5837FE261D07B6DF00FEFBCF /* LCDrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCDrawView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				5837FDF81D07B6B300FEFBCF /* AppDelegate.swift */,
 				5837FDFA1D07B6B300FEFBCF /* ViewController.swift */,
+				5837FE261D07B6DF00FEFBCF /* LCDrawView.swift */,
 				5837FDFC1D07B6B300FEFBCF /* Main.storyboard */,
 				5837FDFF1D07B6B300FEFBCF /* Assets.xcassets */,
 				5837FE011D07B6B300FEFBCF /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5837FE271D07B6DF00FEFBCF /* LCDrawView.swift in Sources */,
 				5837FDFB1D07B6B300FEFBCF /* ViewController.swift in Sources */,
 				5837FDF91D07B6B300FEFBCF /* AppDelegate.swift in Sources */,
 			);
