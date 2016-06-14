@@ -15,6 +15,7 @@
 		5837FE0E1D07B6B400FEFBCF /* DrawBoardDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5837FE0D1D07B6B400FEFBCF /* DrawBoardDemoTests.swift */; };
 		5837FE191D07B6B400FEFBCF /* DrawBoardDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5837FE181D07B6B400FEFBCF /* DrawBoardDemoUITests.swift */; };
 		5837FE271D07B6DF00FEFBCF /* LCDrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5837FE261D07B6DF00FEFBCF /* LCDrawView.swift */; };
+		5839A6771D0FE9B100332D82 /* Draw1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5839A6761D0FE9B100332D82 /* Draw1.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5837FE181D07B6B400FEFBCF /* DrawBoardDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawBoardDemoUITests.swift; sourceTree = "<group>"; };
 		5837FE1A1D07B6B400FEFBCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5837FE261D07B6DF00FEFBCF /* LCDrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LCDrawView.swift; sourceTree = "<group>"; };
+		5839A6761D0FE9B100332D82 /* Draw1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Draw1.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		5837FDF71D07B6B300FEFBCF /* DrawBoardDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5839A6761D0FE9B100332D82 /* Draw1.gif */,
 				5837FDF81D07B6B300FEFBCF /* AppDelegate.swift */,
 				5837FDFA1D07B6B300FEFBCF /* ViewController.swift */,
 				5837FE261D07B6DF00FEFBCF /* LCDrawView.swift */,
@@ -232,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5839A6771D0FE9B100332D82 /* Draw1.gif in Resources */,
 				5837FE031D07B6B300FEFBCF /* LaunchScreen.storyboard in Resources */,
 				5837FE001D07B6B300FEFBCF /* Assets.xcassets in Resources */,
 				5837FDFE1D07B6B300FEFBCF /* Main.storyboard in Resources */,
@@ -486,6 +490,7 @@
 				5837FE1F1D07B6B400FEFBCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5837FE201D07B6B400FEFBCF /* Build configuration list for PBXNativeTarget "DrawBoardDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +499,7 @@
 				5837FE221D07B6B400FEFBCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5837FE231D07B6B400FEFBCF /* Build configuration list for PBXNativeTarget "DrawBoardDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +508,7 @@
 				5837FE251D07B6B400FEFBCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
